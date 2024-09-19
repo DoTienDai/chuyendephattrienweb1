@@ -1,1 +1,1 @@
-# Branch type_hint
+# Branch exception
