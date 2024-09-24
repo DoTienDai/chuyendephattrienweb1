@@ -7,6 +7,5 @@ class A extends C {
         echo "This is function a1 from class A.\n";
     }
 }
-$obj = new A();
-$obj->a1(); 
+
 ?>

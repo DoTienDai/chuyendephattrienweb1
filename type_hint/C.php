@@ -6,5 +6,7 @@ class C implements I {
     public function f(): void {
         echo "This is function f from class C.\n";
     }
+    
 }
+
 ?>
