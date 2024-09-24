@@ -1,14 +1,13 @@
 <?php
 declare(strict_types=1);
-require_once 'I.php';
+require_once 'C.php'; 
 
-class A implements I {
-    public function f(): void {
-        echo "This is function f from class A.\n";
-    }
-
+class A extends C {
     public function a1(): void {
-        echo "This is function a1 from class A.\n";
+        echo "This is function a1 from class A.\n"; 
     }
 }
+
+$aObj = new A();
+$aObj->a1();
 ?>
