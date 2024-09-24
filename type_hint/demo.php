@@ -13,21 +13,20 @@ class Demo {
 
         if ($x instanceof I) {
             $result .= "X implements interface I. ";
-            $x->f();
+            $x->f(); 
         } else {
             $result .= "X is not an instance of I. ";
         }
 
-        
         if ($y instanceof A) {
             $result .= "Y is an instance of class A. ";
-            $y->a1();
+            $y->a1(); 
         } elseif ($y instanceof B) {
             $result .= "Y is an instance of class B. ";
             $y->b1();
         } elseif ($y instanceof C) {
             $result .= "Y is an instance of class C. ";
-            $y->f();
+            $y->f(); 
         } else {
             $result .= "Y is not an instance of A, B, or C. ";
         }
@@ -38,29 +37,35 @@ class Demo {
 
 $demo = new Demo();
 
-
 $aObj = new A();
 $bObj = new B();
 $cObj = new C();
 $nullObj = null; 
 
-
 $objects = [
     'A' => $aObj,
     'B' => $bObj,
     'C' => $cObj,
-    'I' => new class implements I { public function f() { echo "This is function f from interface I.\n"; } },
+    'I' => new class implements I { 
+        public function f(): void { 
+            echo "This is function f from interface I.\n"; 
+        } 
+    },
     'Null' => $nullObj
 ];
-
 
 $results = [];
 
 foreach ($objects as $xKey => $xObj) {
     foreach ($objects as $yKey => $yObj) {
-        // Gọi phương thức process cho mỗi cặp X, Y
+      
         $result = $demo->typeXReturn($xObj, $yObj);
         $results[] = [$xKey, $yKey, $result];
     }
 }
 
+
+foreach ($results as $result) {
+    echo "X: {$result[0]}, Y: {$result[1]}, Result: {$result[2]}\n";
+}
+?>
