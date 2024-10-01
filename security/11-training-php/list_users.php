@@ -4,7 +4,7 @@ session_start();
 
 require_once 'models/UserModel.php';
 $userModel = new UserModel();
-
+require_once 'id_encoder.php';
 $params = [];
 if (!empty($_GET['keyword'])) {
     $params['keyword'] = $_GET['keyword'];
