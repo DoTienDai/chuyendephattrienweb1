@@ -20,13 +20,13 @@ if (file_exists($lessc_path)) {
 }
 
 $less = new lessc;
-$less->compileFile('less/1354.less', 'css/1354.css');
+$less->compileFile('less/3065.less', 'css/3065.css');
 ?>
 
 <html>
 <head>
   
-<link rel="stylesheet" href="css/1354.css">
+<link rel="stylesheet" href="css/3065.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
 
 </head>
