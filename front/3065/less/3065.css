@@ -1,16 +1,12 @@
-@background:#333;
-@color-footer:#fff;
-@color-text:#00aaff;
-
 .type-3065 {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: @background;
-  color: @color-footer;
+  background-color: #333;
+  color: #fff;
 }
 .footer {
-  background-color: @background;
+  background-color: #333;
   padding: 40px 0;
 }
 .footer .container {
@@ -25,7 +21,7 @@
   margin: 0 20px;
 }
 .footer .column h3 {
-  color: @color-footer;
+  color: #fff;
   margin-bottom: 20px;
   position: relative;
 }
@@ -33,7 +29,7 @@
   content: '';
   width: 40px;
   height: 2px;
-  background-color: @color-text;
+  background-color: #00aaff;
   position: absolute;
   bottom: -10px;
   left: 0;
@@ -46,7 +42,7 @@
   margin-bottom: 10px;
 }
 .footer .column ul li a {
-  color: @color-footer;
+  color: #fff;
   text-decoration: none;
 }
 .footer .column ul li a:hover {
@@ -62,15 +58,15 @@
 .footer button {
   width: 100%;
   padding: 10px;
-  background-color: @color-text;
+  background-color: #00aaff;
   border: none;
   border-radius: 5px;
-  color: @color-footer;
+  color: #fff;
   cursor: pointer;
 }
-.footer  button:hover {
-  background-color: @color-footer;
-  color: @background;
+.footer button:hover {
+  background-color: #fff;
+  color: #333;
 }
 .footer .bottom-bar {
   background-color: #222;
@@ -111,7 +107,7 @@
   margin: 0;
 }
 .footer .bottom-bar .container p span {
-  color: @color-text;
+  color: #00aaff;
 }
 .footer .bottom-bar .container .payment-methods {
   display: flex;
@@ -121,8 +117,8 @@
   margin-left: 5px;
 }
 .bottom-bar {
-  background-color: @background;
-  color: @color-footer;
+  background-color: #333;
+  color: #fff;
   padding: 10px 0;
 }
 .container {
@@ -142,23 +138,23 @@
   margin: 0 15px;
 }
 .left span.support:hover {
-  color: @color-text;
+  color: #00aaff;
 }
 .left i {
   margin-right: 8px;
 }
 .blue {
-  color: @color-text;
+  color: #00aaff;
   font-size: 30px;
   font-family: Arial, sans-serif;
 }
 .i {
-  color: @color-footer;
+  color: #fff;
   font-size: 30px;
   font-family: Arial, sans-serif;
 }
 .fa {
-  color: @color-text;
+  color: #00aaff;
   font-size: 30px;
   font-family: Arial, sans-serif;
 }

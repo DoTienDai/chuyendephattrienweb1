@@ -86,7 +86,7 @@
 }
 .product:hover .add-to-cart {
   opacity: 1;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 .product {
   width: 22%;
@@ -105,7 +105,7 @@
   position: absolute;
   top: 60%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   background-color: black;
   color: white;
   width: 90%;
@@ -122,5 +122,5 @@
 }
 .product:hover .add-to-cart {
   opacity: 1;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }

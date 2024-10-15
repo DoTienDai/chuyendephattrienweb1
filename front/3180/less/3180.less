@@ -1,6 +1,11 @@
+@backgroud:black;
+@backfroud-color:#fff;
+@color:white;
+@color-rating:#000;
+@font-family:Arial, sans-serif;
 .type-3180 {
-        font-family: Arial, sans-serif;
-    background-color: #fff;
+    font-family: @font-family;
+    background-color: @backfroud-color;
     margin: 0;
     padding: 0;
 }
@@ -23,8 +28,8 @@
 }
 .product .sale {
     position: absolute;
-    background-color: black;
-    color: white;
+    background-color: @backgroud;
+    color: @color;
     padding: 5px 10px;
     top: 10px;
     right: 10px;
@@ -50,20 +55,20 @@
     margin-bottom: 5px;
 }
 .product .rating {
-    color: #000;
+    color: @color-rating;
 }
 .product .rating .fa-star {
-    color: #000;
+    color: @color-rating;
 }
 .product .rating .fa-star-half-alt {
-    color: #000;
+    color: @color-rating;
 }
 .product .add-to-cart {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
+    background-color: @color-rating;
+    color: @color;
     text-decoration: none;
     font-size: 14px;
     border-radius: 5px;
@@ -113,13 +118,13 @@ position: absolute;
 top: 60%;
 left: 50%;
 transform: translate(-50%, -50%);
-background-color: #000;
-color: #fff;
-width: 90%; /* Tăng chiều rộng */
-height: 4%;  /* Tăng chiều cao */
-padding: 15px 25px; /* Thêm padding */
+background-color: @backgroud;
+color: @color;
+width: 90%; 
+height: 4%; 
+padding: 15px 25px;
 text-align: center;
-font-size: 16px; /* Tăng kích thước font chữ */
+font-size: 16px;
 text-decoration: none;
 opacity: 0;
 transition: opacity 0.5s ease, transform 0.5s ease;
