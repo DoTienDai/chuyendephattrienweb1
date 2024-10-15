@@ -158,3 +158,9 @@
   font-size: 30px;
   font-family: Arial, sans-serif;
 }
+.container column.p {
+  color: #fff;
+}
+.column p {
+  color: #fff;
+}
