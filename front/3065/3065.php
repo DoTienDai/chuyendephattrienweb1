@@ -35,7 +35,7 @@ $less->compileFile('less/3065.less', 'css/3065.css');
         <div class="container">
             <div class="column">
                 <a href="#"><span><i class="fa fa-fax"></i></span><span class="i">V</span><span class="blue">O</span><span class="i">IP</span></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quod mollitia quisquam...</p>
+                <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quod mollitia quisquam...</p>
                 <button>Learn More</button>
             </div>
             <div class="column">
