@@ -3,18 +3,21 @@
 @color-text:#00aaff;
 @color-t:#fff;
 @font-family:Arial, sans-serif;
+@background-size:cover;
 .type-3065 {
   font-family:@font-family ;
   margin: 0;
   padding: 0;
   background-color: @background;
   color: @color-footer;
-
+  background-size: @background-size;
+  width: 100%;
+  min-height: 100vh;
 }
 .footer {
   background-color: @background;
   padding: 40px 0;
-  background-size: cover;
+  background-size: @background-size;
 }
 .footer .container {
   display: flex;
@@ -22,6 +25,7 @@
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
+  color:@color-t ;
 }
 .footer .column {
   flex: 1;
