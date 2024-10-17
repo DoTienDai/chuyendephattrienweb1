@@ -22,14 +22,13 @@ if (file_exists($lessc_path)) {
 $less = new lessc;
 $less->compileFile('less/3065.less', 'css/3065.css');
 ?>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  
+    <title>3065</title>
     <link rel="stylesheet" href="css/3065.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
- <link rel="stylesheet" href="css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
     <div class="footer">

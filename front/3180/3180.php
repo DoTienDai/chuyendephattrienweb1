@@ -22,11 +22,13 @@ if (file_exists($lessc_path)) {
 $less = new lessc;
 $less->compileFile('less/3180.less', 'css/3180.css');
 ?>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Product Grid</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
    <link rel="stylesheet" href="css/3180.css">
+   
 </head>
 <body>
     <div class="container">
